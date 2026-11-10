@@ -1,0 +1,28 @@
+---
+title: "Opciones de un grupo de extensiones"
+description: "Campos de configuración y estrategias de timbrado de un grupo de extensiones."
+---
+
+## Campos de configuración
+
+| Campo | Descripción |
+|---|---|
+| Nombre del grupo de extensiones | Identifica el grupo dentro de la cuenta |
+| Correo de alertas | Dirección donde se envían las notificaciones relacionadas con el grupo |
+| Si nadie contesta | Acción del sistema cuando ninguna extensión atiende: nuevo intento con el mismo grupo o enviar la llamada a otro destino |
+| Timbrado | Forma en que se distribuyen las llamadas entre las extensiones |
+| Tiempo de timbrado | Cuánto suena una extensión o grupo antes de aplicar la siguiente acción. Puedes usar el tiempo recomendado o uno personalizado |
+
+## Estrategias de timbrado
+
+| Estrategia | Comportamiento |
+|---|---|
+| Timbrado secuencial | Si una extensión no contesta, pasa a la siguiente, siempre en el mismo orden, hasta terminar con todas |
+| Todos a la vez | Suena en todas las extensiones al mismo tiempo. Máximo de 5 extensiones al configurar el grupo |
+| Carrusel/equitativo | Distribuye las llamadas entrantes de forma equitativa y cíclica entre las extensiones |
+
+## Ver también
+
+<Columns cols={2}>
+  <Card title="Crea un grupo de extensiones" icon="users" href="/crea-un-grupo-de-extensiones" horizontal />
+</Columns>

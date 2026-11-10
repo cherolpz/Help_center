@@ -1,0 +1,66 @@
+---
+title: "Encuentra un número (DID) y sigue su recorrido"
+description: "Ubica un número telefónico (DID) desde Flujo o Admin Callpicker y consulta a dónde se dirige la llamada."
+---
+
+<Tabs>
+  <Tab title="Flujo">
+    <Steps>
+      <Step title="Abre la barra de búsqueda">
+        Haz clic en la barra de búsqueda, en la barra superior. Se muestra la lista de todos los números de teléfono (DID) disponibles en la cuenta.
+      </Step>
+      <Step title="Selecciona el número">
+        Busca o selecciona el número que necesitas. Flujo te lleva al primer bloque destino en el que aparece ese número.
+      </Step>
+      <Step title="Abre la conexión del bloque destino">
+        Haz clic en el botón circular con flecha (nodo conector) del bloque destino, al inicio de la línea que lo conecta con el siguiente. Aparece un recuadro con el destino del otro lado de la conexión y la línea conectora se muestra punteada.
+      </Step>
+      <Step title="Ve al bloque destino conectado">
+        Haz clic en el recuadro para ir al bloque destino conectado.
+      </Step>
+      <Step title="Sigue el recorrido">
+        Repite los pasos 3 y 4 en cada bloque destino para seguir el recorrido hasta su destino final.
+      </Step>
+    </Steps>
+
+    <Check>
+      **Resultado esperado:** ubicas el bloque destino donde aparece el número y recorres, bloque destino por bloque destino, el camino que sigue la llamada.
+    </Check>
+
+    <Tip>
+      - Si el número aparece en más de un bloque destino, la búsqueda te lleva al primero.
+      - También puedes hacer clic en el círculo gris donde llega la línea a un bloque destino para ver el elemento del otro lado de la conexión.
+      - Para volver a una vista general del flujo, usa **Centrar vista**.
+    </Tip>
+  </Tab>
+  <Tab title="Perfil">
+    <Steps>
+      <Step title="Ve a las opciones de tu empresa">
+        En la barra lateral de Admin Callpicker, haz clic en el nombre de tu empresa (Primera opción).
+      </Step>
+      <Step title="Abre Perfil">
+        Haz clic en **Perfil**.
+      </Step>
+      <Step title="Ubica el número">
+        En el módulo **Números** se muestra la lista de números de teléfono (DID) de la cuenta. Para filtrarla, haz clic en **Buscar número**.
+      </Step>
+      <Step title="Consulta a qué está conectado">
+        Haz clic en el ícono de editar (lápiz) junto al número. Se muestra a qué está conectado.
+      </Step>
+      <Step title="Sigue el recorrido">
+        En la barra lateral, haz clic en **Destinos**, busca el destino conectado y repite el paso 4 para seguir el recorrido.
+      </Step>
+    </Steps>
+
+    <Check>
+      **Resultado esperado:** ubicas a qué está conectado el número y sigues el recorrido de la llamada hasta su destino final.
+    </Check>
+  </Tab>
+</Tabs>
+
+## Ver también
+
+<Columns cols={2}>
+  <Card title="Controles de la interfaz de Flujo" icon="mouse" href="/controles-de-la-interfaz-de-flujo" horizontal />
+  <Card title="Cómo se estructura un flujo de llamadas" icon="lightbulb" href="/como-se-estructura-un-flujo-de-llamadas" horizontal />
+</Columns>

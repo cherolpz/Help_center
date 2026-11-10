@@ -1,0 +1,58 @@
+---
+title: "Crea un menú (IVR) con audio generado por IA"
+description: "Crea un menú con opciones de marcado y un mensaje de bienvenida con voz generada por inteligencia artificial."
+---
+
+<Steps>
+  <Step title="Abre Destinos">
+    Haz clic en el botón **Destinos**, en la barra superior (header) de Flujo.
+  </Step>
+  <Step title="Selecciona Menús">
+    Haz clic en **Menús**.
+  </Step>
+  <Step title="Crea un menú nuevo">
+    Haz clic en **+ Nuevo menú**.
+  </Step>
+  <Step title="Completa la información del menú">
+    - **Nombre del menú**: identifica el menú dentro de la cuenta.
+    - **Descripción**: información adicional para identificarlo.
+    - **Tipo de menú**: selecciona **Audio generado por IA**.
+    - **Destino si no elige opción**: define qué hace el sistema cuando la persona que llama no presiona ninguna opción.
+  </Step>
+  <Step title="Agrega una opción">
+    Haz clic en **+ Agregar opción**.
+  </Step>
+  <Step title="Configura la opción">
+    Configura la opción y haz clic en **Agregar**:
+
+    - **Si el cliente marca**: número que debe marcar la persona (por ejemplo, 1).
+    - **Suena en**: nombre descriptivo de la opción (por ejemplo, Ventas).
+    - **Timbrará en**: destino al que se dirige la llamada cuando se elige la opción.
+  </Step>
+  <Step title="Repite para cada opción">
+    Repite los pasos 5 y 6 para cada opción. Al terminar, haz clic en **Continuar**.
+  </Step>
+  <Step title="Configura el audio con IA">
+    Configura la generación de audio con IA (nombre y voz del mensaje) y haz clic en **Crear**. Para ajustar velocidad, expresividad o volumen de la voz, usa **Configuración avanzada**.
+
+    En este paso se muestra el guion que usará la voz de IA durante la llamada. Se genera a partir de las opciones que configuraste.
+
+    <Warning>
+      Si necesitas modificar opciones o destinos, regresa al paso anterior antes de guardar el menú. El guion se vuelve a generar y pierdes los cambios que le hayas hecho.
+    </Warning>
+  </Step>
+  <Step title="Confirma la creación">
+    Aparece una notificación de éxito en la parte inferior central de la pantalla y regresas al listado de ese tipo de destino en el menú lateral.
+  </Step>
+</Steps>
+
+<Note>
+  Para usar un audio ya subido a tu cuenta en lugar de uno generado por IA, consulta [Cambia un audio de tus llamadas](/cambia-un-audio-de-tus-llamadas).
+</Note>
+
+## Ver también
+
+<Columns cols={2}>
+  <Card title="Edita un destino desde Flujo" icon="pencil" href="/edita-un-destino-desde-flujo" horizontal />
+  <Card title="Creación rápida de destinos" icon="book" href="/creacion-rapida-de-destinos" horizontal />
+</Columns>

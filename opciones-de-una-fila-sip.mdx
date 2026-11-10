@@ -1,0 +1,43 @@
+---
+title: "Opciones de una fila SIP"
+description: "Configuración principal, tipos de timbrado y configuración avanzada de una fila SIP."
+---
+
+## Configuración principal
+
+| Campo | Descripción |
+|---|---|
+| Nombre de la Fila SIP | Identifica la fila dentro de la cuenta |
+| Tipo de timbrado | Cómo se distribuyen las llamadas entre las extensiones. Es opcional |
+| Tiempo de timbrado | Cuánto suena una extensión antes de intentar con otra disponible |
+
+## Tipos de timbrado
+
+| Tipo | Comportamiento |
+|---|---|
+| Extensión con menos llamadas | Envía la llamada a la extensión que ha atendido menos llamadas. Sigue enviando a esa extensión hasta que deje de ser la que menos ha contestado en la fila |
+| Extensión con mayor tiempo sin llamadas | Envía la llamada a la extensión que lleva más tiempo sin recibir una. Distribuye las llamadas de forma más uniforme |
+| Aleatoriamente | Asigna las llamadas de forma aleatoria entre las extensiones disponibles |
+| En orden | Sigue un orden secuencial. Contacta primero a la extensión al inicio de la lista y continúa con las siguientes |
+
+## Configuración avanzada
+
+| Opción | Descripción |
+|---|---|
+| Reintento cuando no hay extensiones disponibles | Tiempo que espera el sistema antes de enviar la llamada de nuevo a las extensiones cuando nadie la toma |
+| Prioridad de la fila | Prioridad de atención de la fila frente a otras configuraciones. Valor de 0 a 5: 5 es la más alta y 0 la más baja |
+| Anuncio al agente | Informa al agente desde qué fila SIP proviene la llamada |
+| Anuncio de turno en la fila | Informa a quienes esperan su posición en la fila. Con **Sin audio**, la llamada se conecta directo, sin anunciarse |
+| Música de espera | Música que escuchan los usuarios mientras esperan |
+
+Al hacer clic en **Guardar** dentro de la ventana de configuración avanzada, regresas a la configuración principal de la fila.
+
+<Accordion title="Ejemplo de prioridad">
+  En un menú de bienvenida con tres opciones, asignas prioridad 5 a Contratación de servicio, 4 a Atención al cliente y 3 a Bolsa de trabajo. Las llamadas se atienden en ese orden de prioridad: primero Contratación, luego Atención al cliente y al final Bolsa de trabajo.
+</Accordion>
+
+## Ver también
+
+<Columns cols={2}>
+  <Card title="Crea una fila SIP" icon="layers" href="/crea-una-fila-sip" horizontal />
+</Columns>

@@ -1,0 +1,39 @@
+---
+title: "Cómo se estructura un flujo de llamadas"
+description: "Cómo representa Flujo el recorrido de una llamada con bloques destino y conexiones."
+---
+
+## Así se ve tu flujo
+
+Flujo muestra el recorrido de una llamada como un diagrama de bloques unidos por líneas (nodos). Cada bloque es un paso por el que pasa la llamada, por ejemplo tu número, un menú, un horario o un grupo de extensiones. 
+
+Las líneas indican a dónde va la llamada después de cada paso, desde que entra a tu número hasta que llega a su destino final.
+
+## Bloques destino y conexiones
+
+- Un **bloque destino** (o destino) es un elemento hacia el que puede dirigirse una llamada. Cada uno cumple una función específica, como reproducir un menú, enviar la llamada a una extensión, aplicar una regla de horario o finalizar la llamada.
+- Las **conexiones** son las líneas que enlazan un bloque destino con otro y muestran por dónde pasa la llamada. Al inicio de cada línea hay un botón circular con flecha (nodo conector) en el que puedes hacer clic para ver el siguiente bloque. 
+Para usarlas, consulta [Controles de la interfaz de Flujo](/controles-de-la-interfaz-de-flujo).
+- Los destinos pueden conectarse entre sí para construir distintos recorridos según las necesidades de tu operación.
+
+## Cómo se construyen recorridos más complejos
+
+Un destino puede relacionarse con otros. Por ejemplo, un menú dirige cada opción a un destino; un calendario envía la llamada a un destino dentro del horario y a otro fuera de él; una extensión puede recibir llamadas de números, menús, calendarios y otros bloques destino.
+
+## Según tu experiencia con Callpicker
+
+<Tabs>
+  <Tab title="Ya usabas Callpicker">
+    Los destinos se llaman igual en ambas interfaces. Flujo muestra todo tu flujo de llamadas como un diagrama; la interfaz anterior lo muestra por módulos por lo que debes seguir el recorrido en cada destino.
+  </Tab>
+  <Tab title="Eres usuario nuevo">
+    Tu cuenta incluye una configuración predeterminada lista para editarse y probarse. Para recorrerla paso a paso, sigue el tutorial [Recorre y personaliza tu flujo inicial](/recorre-y-personaliza-tu-flujo-inicial).
+  </Tab>
+</Tabs>
+
+## Ver también
+
+<Columns cols={2}>
+  <Card title="Tipos de destinos en Flujo" icon="book" href="/tipos-de-destinos-en-flujo" horizontal />
+  <Card title="Encuentra un número (DID) y sigue su recorrido" icon="search" href="/encuentra-un-numero-y-sigue-su-recorrido" horizontal />
+</Columns>

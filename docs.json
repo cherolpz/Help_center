@@ -1,0 +1,170 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Callpicker",
+  "colors": {
+    "primary": "#2696F1",
+    "light": "#6EBDFA",
+    "dark": "#003E73"
+  },
+  "logo": {
+    "light": "/light.png",
+    "dark": "/dark.png"
+  },
+  "icons": {
+    "library": "lucide"
+  },
+  "navigation": {
+    "products": [
+      {
+        "product": "Inicio",
+        "hidden": true,
+        "pages": [
+          "index"
+        ]
+      },
+      {
+        "product": "Callpicker Voz",
+        "icon": "phone",
+        "description": "Documentación de Callpicker Voz",
+        "tabs": [
+          {
+            "tab": "Producto",
+            "groups": [
+              {
+                "group": "Introducción",
+                "pages": [
+                  "introduccion-a-callpicker-voz"
+                ]
+              },
+              {
+                "group": "Tutoriales",
+                "pages": [
+                  "recorre-y-personaliza-tu-flujo-inicial"
+                ]
+              },
+              {
+                "group": "Guías prácticas",
+                "pages": [
+                  {
+                    "group": "Enrutamiento de llamadas",
+                    "pages": [
+                      {
+                        "group": "Navega y administra tu flujo",
+                        "pages": [
+                          "encuentra-un-numero-y-sigue-su-recorrido",
+                          "cambia-a-donde-dirige-un-bloque-destino",
+                          "edita-un-destino-desde-flujo",
+                          "elimina-un-destino"
+                        ]
+                      },
+                      {
+                        "group": "Crea destinos en Flujo",
+                        "pages": [
+                          "crea-un-grupo-de-extensiones",
+                          "crea-un-menu-ivr-con-audio-ia",
+                          "crea-un-calendario-sencillo",
+                          "crea-una-fila-sip",
+                          "crea-una-extension",
+                          "crea-un-buzon-de-voz"
+                        ]
+                      },
+                      {
+                        "group": "Destinos fuera de Flujo",
+                        "pages": [
+                          "administra-destinos-fuera-de-flujo",
+                          "crea-un-agente-virtual"
+                        ]
+                      },
+                      {
+                        "group": "Ajusta la atención de tus llamadas",
+                        "pages": [
+                          "cambia-un-audio-de-tus-llamadas",
+                          "agrega-un-dia-festivo-o-cierre",
+                          "redirige-una-extension-a-un-celular",
+                          "bloquea-numeros-o-crea-excepciones"
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "group": "Referencia",
+                "pages": [
+                  {
+                    "group": "Flujo de llamadas",
+                    "pages": [
+                      "controles-de-la-interfaz-de-flujo",
+                      "tipos-de-destinos-en-flujo",
+                      "opciones-de-un-grupo-de-extensiones",
+                      "opciones-de-una-fila-sip",
+                      "tipos-de-extension",
+                      "creacion-rapida-de-destinos",
+                      "audios-del-sistema",
+                      "desvios-por-lada"
+                    ]
+                  }
+                ]
+              },
+              {
+                "group": "Explicaciones",
+                "pages": [
+                  {
+                    "group": "Flujo de llamadas",
+                    "pages": [
+                      "como-se-estructura-un-flujo-de-llamadas",
+                      "grupo-de-extensiones-o-fila-sip",
+                      "calendario-sencillo-o-avanzado",
+                      "que-cambias-tu-y-que-se-solicita-a-soporte"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Desarrolladores",
+            "groups": [
+              {
+                "group": "Introducción",
+                "pages": [
+                  "desarrolladores"
+                ]
+              }
+            ]
+          },
+          {
+            "tab": "Actualizaciones",
+            "groups": [
+              {
+                "group": "Introducción",
+                "pages": [
+                  "actualizaciones"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Callpicker Chat",
+        "icon": "message-circle",
+        "description": "Documentación de Callpicker Chat",
+        "tabs": [
+          {
+            "tab": "Documentación",
+            "groups": [
+              {
+                "group": "Introducción",
+                "pages": [
+                  "chat"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

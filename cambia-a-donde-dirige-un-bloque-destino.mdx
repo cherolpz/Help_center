@@ -1,0 +1,127 @@
+---
+title: "Cambia a dónde redirige un destino"
+description: "Cambia a dónde va la llamada: la opción de un menú, lo que pasa si no eligen opción, el destino fuera de horario de un calendario, lo que ocurre cuando nadie contesta en un grupo o a dónde timbra un número."
+---
+
+<Tabs>
+  <Tab title="Flujo">
+    <Steps>
+      <Step title="Ubica el bloque destino">
+        Ubica el bloque destino que quieres cambiar. En caso de no encontrarlo en tu flujo actual puedes buscarlo dando clic en el botón **Destinos** en la parte superior derecha. Al desplegarse el listado selecciona el tipo de destino y busca la configuración que deseas cambiar.
+      </Step>
+      <Step title="Abre la edición">
+        Haz clic en el ícono de editar (lápiz) en la esquina superior derecha del bloque destino.
+      </Step>
+      <Step title="Cambia o agrega el destino">
+        Cambia o agrega el destino al que redireccionará el bloque que vas a editar. El campo depende del tipo de bloque destino y conserva el mismo nombre al crear y al editar:
+
+        | Tipo de bloque destino | Campo |
+        |---|---|
+        | Menús (cada opción) | **Timbrará en** |
+        | Menús (sin opción elegida) | **Destino si no elige opción** |
+        | Calendarios | **Destino fuera de horario** |
+        | Grupos de extensiones | **Si nadie contesta** |
+      </Step>
+      <Step title="Selecciona el destino">
+        Selecciona un destino ya creado o crea uno nuevo desde ahí.
+
+        **Ejemplo:** para que la opción 1 de un menú dirija las llamadas a un grupo de extensiones, edita el menú y, en **Timbrará en**, selecciona ese grupo de extensiones.
+
+        <Warning>
+          En un menú, cambiar **Timbrará en** vuelve a generar el audio del menú.
+        </Warning>
+      </Step>
+      <Step title="Guarda los cambios">
+        Haz clic en **Guardar**, al final del proceso.
+      </Step>
+    </Steps>
+  </Tab>
+  <Tab title="Admin Callpicker">
+    <Steps>
+      <Step title="Abre Destinos">
+        En la barra lateral de Admin Callpicker, haz clic en **Destinos**.
+      </Step>
+      <Step title="Selecciona el tipo de destino">
+        Selecciona el tipo de destino que quieres cambiar, por ejemplo [Menús](https://admin.callpicker.com/menus) o [Calendarios](https://admin.callpicker.com/time_conditions).
+      </Step>
+      <Step title="Abre la edición">
+        Ubica el destino y haz clic en su ícono de editar (lápiz).
+      </Step>
+      <Step title="Cambia el destino">
+        Cambia el destino al que redireccionará. El campo depende del tipo de destino y conserva el mismo nombre al crear y al editar:
+
+        | Tipo de destino | Campo |
+        |---|---|
+        | Menús (cada opción) | **Timbrará en** |
+        | Menús (sin opción elegida) | **Destino si no elige opción** |
+        | Calendarios | **Destino fuera de horario** |
+        | Grupos de extensiones | **Si nadie contesta** |
+      </Step>
+      <Step title="Selecciona el destino">
+        Selecciona un destino ya creado.
+
+        <Warning>
+          En un menú, cambiar **Timbrará en** vuelve a generar el audio del menú.
+        </Warning>
+      </Step>
+      <Step title="Guarda los cambios">
+        Haz clic en **Guardar**, al final del proceso.
+      </Step>
+    </Steps>
+  </Tab>
+</Tabs>
+
+## Cambia a dónde timbra un número
+
+<Tabs>
+  <Tab title="Flujo">
+    <Steps>
+      <Step title="Edita el bloque destino Número">
+        Haz clic en el ícono de editar (lápiz) del bloque destino **Número**. En caso de no encontrar el número que quieres cambiar, puedes buscar el número directamente desde la barra de búsqueda en la parte superior derecha.
+      </Step>
+      <Step title="Revisa los datos de la línea">
+        Verás el nombre de la línea, que puedes editar, y el número de teléfono, que no se puede editar.
+      </Step>
+      <Step title="Selecciona el destino">
+        Selecciona el destino donde timbrará el número.
+      </Step>
+      <Step title="Guarda los cambios">
+        Haz clic en **Guardar**, al final del proceso.
+      </Step>
+    </Steps>
+  </Tab>
+  <Tab title="Admin Callpicker">
+    <Steps>
+      <Step title="Abre el menú de la empresa">
+        En la barra lateral de Admin Callpicker, haz clic en el nombre de tu empresa.
+      </Step>
+      <Step title="Abre Perfil">
+        Haz clic en **Perfil**.
+      </Step>
+      <Step title="Ubica el número">
+        En el módulo **Números** se muestra la lista de números de teléfono (DID) de la cuenta. Para filtrarla, haz clic en **Buscar número**.
+      </Step>
+      <Step title="Abre la edición del número">
+        Haz clic en el ícono de editar (lápiz) junto al número.
+      </Step>
+      <Step title="Selecciona el destino">
+        Selecciona el destino donde timbrará el número.
+      </Step>
+      <Step title="Guarda los cambios">
+        Haz clic en **Guardar**.
+      </Step>
+    </Steps>
+  </Tab>
+</Tabs>
+
+## Qué puedes y qué no puedes hacer desde aquí
+
+- **Puedes** elegir un destino existente o crear uno nuevo desde aquí. Consulta [Creación rápida de destinos](/creacion-rapida-de-destinos).
+- **No puedes** cambiar desde aquí la configuración de otro destino, como su nombre o sus integrantes. Para eso, consulta [Edita un destino desde Flujo](/edita-un-destino-desde-flujo).
+
+## Ver también
+
+<Columns cols={2}>
+  <Card title="Encuentra un número (DID) y sigue su recorrido" icon="search" href="/encuentra-un-numero-y-sigue-su-recorrido" horizontal />
+  <Card title="Edita un destino desde Flujo" icon="pencil" href="/edita-un-destino-desde-flujo" horizontal />
+</Columns>

@@ -1,0 +1,25 @@
+---
+title: "Grupo de extensiones o fila SIP: cuál usar"
+sidebarTitle: "Grupo de extensiones o fila SIP"
+description: "Ambos destinos reparten llamadas entre varias extensiones, pero se comportan distinto cuando nadie puede atender."
+---
+
+| | Grupo de extensiones | Fila SIP |
+|---|---|---|
+| Qué hace | Distribuye llamadas entre varias extensiones que comparten la atención de un mismo flujo | Pone en espera las llamadas entrantes y las reparte entre un grupo de agentes (extensiones) |
+| Si todos están ocupados o nadie contesta | Aplica la acción de **Si nadie contesta**: nuevo intento con el mismo grupo o envío a otro destino | La llamada queda retenida y encolada hasta que un agente se libere, en lugar de recibir tono de ocupado o cortarse |
+
+Para las estrategias de reparto de cada uno, consulta su referencia de opciones.
+
+## Cuándo conviene cada uno
+
+<Tip>
+  Usa una fila SIP en áreas con alto volumen de llamadas, como ventas, soporte o atención a clientes, donde quieres que ninguna llamada se pierda y que se atiendan en orden. Usa un grupo de extensiones cuando prefieres que la llamada pase a otro destino si nadie contesta.
+</Tip>
+
+## Ver también
+
+<Columns cols={2}>
+  <Card title="Opciones de un grupo de extensiones" icon="book" href="/opciones-de-un-grupo-de-extensiones" horizontal />
+  <Card title="Opciones de una fila SIP" icon="book" href="/opciones-de-una-fila-sip" horizontal />
+</Columns>
