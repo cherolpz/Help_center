@@ -112,7 +112,7 @@
                 "icon": "book"
               },
               {
-                "group": "Explicaciones",
+                "group": "Conceptos",
                 "pages": [
                   {
                     "group": "Flujo de llamadas",
