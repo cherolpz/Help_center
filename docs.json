@@ -29,19 +29,21 @@
         "description": "Documentación de Callpicker Voz",
         "tabs": [
           {
-            "tab": "Documentación",
+            "tab": "Producto",
             "groups": [
               {
                 "group": "Introducción",
                 "pages": [
                   "introduccion-a-callpicker-voz"
-                ]
+                ],
+                "icon": "book-open"
               },
               {
                 "group": "Tutoriales",
                 "pages": [
                   "recorre-y-personaliza-tu-flujo-inicial"
-                ]
+                ],
+                "icon": "graduation-cap"
               },
               {
                 "group": "Guías prácticas",
@@ -87,7 +89,8 @@
                       }
                     ]
                   }
-                ]
+                ],
+                "icon": "compass"
               },
               {
                 "group": "Referencia",
@@ -105,7 +108,8 @@
                       "desvios-por-lada"
                     ]
                   }
-                ]
+                ],
+                "icon": "book"
               },
               {
                 "group": "Explicaciones",
@@ -119,20 +123,24 @@
                       "que-cambias-tu-y-que-se-solicita-a-soporte"
                     ]
                   }
-                ]
+                ],
+                "icon": "lightbulb"
               }
-            ]
+            ],
+            "icon": "package"
           },
           {
-            "tab": "Conceptos",
+            "tab": "Desarrolladores",
             "groups": [
               {
                 "group": "Introducción",
                 "pages": [
                   "desarrolladores"
-                ]
+                ],
+                "icon": "book-open"
               }
-            ]
+            ],
+            "icon": "code"
           },
           {
             "tab": "Actualizaciones",
@@ -141,9 +149,11 @@
                 "group": "Introducción",
                 "pages": [
                   "actualizaciones"
-                ]
+                ],
+                "icon": "book-open"
               }
-            ]
+            ],
+            "icon": "bell"
           }
         ]
       },
@@ -159,7 +169,8 @@
                 "group": "Introducción",
                 "pages": [
                   "chat"
-                ]
+                ],
+                "icon": "book-open"
               }
             ]
           }
